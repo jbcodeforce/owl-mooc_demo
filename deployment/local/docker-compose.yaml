@@ -1,0 +1,19 @@
+services:
+  student-mgr:
+    hostname: student-mgr-backend
+    image: jbcodeforce/student-mgr:latest 
+    container_name: student-mgr
+    ports:
+      - 8000:8000
+    environment:
+      CONFIG_FILE: /app/config/config.yaml
+      #OPENAI_API_KEY: $OPENAI_API_KEY
+    env_file:
+      - ../../.env
+    volumes:
+      - ../../.env:/app/.env
+      - ./data/file_content:/app/file_content
+      - ./data/chromadb:/app/chromadb
+  
+
+  

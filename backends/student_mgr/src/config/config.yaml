@@ -1,0 +1,4 @@
+logging_level: DEBUG
+version: v0.0.2
+owl_env_path: ../.env
+data_path: ./data/students.json
