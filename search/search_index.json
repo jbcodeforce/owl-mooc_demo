@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Main page","text":""},{"location":"arch/","title":"Architecture","text":""},{"location":"arch/#system-context","title":"System Context","text":""},{"location":"design/","title":"Design Considerations","text":""}]}
